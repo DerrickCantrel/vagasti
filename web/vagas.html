@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Estagio II</title>
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/partials/header.css" />
+    <link rel="stylesheet" href="styles/partials/page-vagas.css" />
+    <link rel="stylesheet" href="styles/partials/forms.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="page-vagas">
+    <div class="container">
+      <header class="page-header">
+        <div class="top-bar-container">
+          <a href="/"> <img src="/assets/icons/back.svg" alt="voltar" /></a>
+          <img src="/assets/images/VAGAS DE TI.svg" alt="Vagas" />
+        </div>
+
+        <div class="header-content">
+          <strong>Vagas Disponíveis</strong>
+          <form id="search-vagas">
+            <div class="select-type">
+              <label for="subject">Tipo da Vaga</label>
+              <select name="subject" id="subject">
+                <option value="" disabled="" hidden="">
+                  Selecione uma opção
+                </option>
+                <option value="1">Estágio</option>
+                <option value="2">Júnior</option>
+                <option value="3">Pleno</option>
+                <option value="4">Senior</option>
+              </select>
+            </div>
+            <div class="select-local">
+              <label for="subject">Local</label>
+              <select name="subject" id="subject">
+                <option value="" disabled="" hidden="">
+                  Selecione uma opção
+                </option>
+                <option value="1">Home Office</option>
+                <option value="2">Ceará</option>
+                <option value="3">Bahia</option>
+                <option value="4">Acre</option>
+              </select>
+            </div>
+            <div class="select-skills">
+              <label for="subject">Skill</label>
+              <select name="subject" id="subject">
+                <option value="" disabled="" hidden="">
+                  Selecione uma opção
+                </option>
+                <option value="1">React</option>
+                <option value="2">Angular</option>
+                <option value="3">Elixir</option>
+                <option value="4">JSF</option>
+                <option value="5">Front-end</option>
+                <option value="6">back-end</option>
+              </select>
+            </div>
+            <button type="submit">Filtrar</button>
+          </form>
+        </div>
+      </header>
+
+      <main>
+        <article class="vagas-item">
+          <header>
+            <img
+              src="https://avatars.githubusercontent.com/u/37213143?v=4"
+              alt="avatar"
+            />
+            <div>
+              <strong>VW Software</strong>
+            </div>
+          </header>
+
+          <p>
+            Somos uma startup focada na área social, desenvolvemos tecnologia
+            para o terceiro setor.
+          </p>
+
+          <footer>
+            <a href="#">Compartilhar</a>
+            <button type="button">Candindatar-se</button>
+          </footer>
+        </article>
+
+        <article class="vagas-item">
+          <header>
+            <img
+              src="https://avatars.githubusercontent.com/u/37213143?v=4"
+              alt="avatar"
+            />
+            <div>
+              <strong>VW Software</strong>
+            </div>
+          </header>
+
+          <p>
+            Somos uma startup focada na área social, desenvolvemos tecnologia
+            para o terceiro setor.
+          </p>
+
+          <footer>
+            <a href="#">Compartilhar</a>
+            <button type="button">Candindatar-se</button>
+          </footer>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>

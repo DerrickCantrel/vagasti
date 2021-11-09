@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estagio II</title>
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/partials/header.css" />
+    <link rel="stylesheet" href="styles/partials/page-vagas.css" />
+    <link rel="stylesheet" href="styles/partials/forms.css" />
+    <link rel="stylesheet" href="styles/partials/cadastro.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="page-landing">
+    <div class="option-title">
+      <h2>Candidato</h2>
+      <a href="cad-empresa.html"><h2>Empresa</h2></a>
+    </div>
+    <div class="container">
+      <!--FORMULÁRIO DE LOGIN-->
+      <main id="candidato">
+        <div class="register">
+          <form action="" method="post">
+            <legend>Crie a sua conta</legend>
+            <input
+              type="email"
+              name="email"
+              placeholder="Seu e-mail"
+              required
+            />
+            <input type="text" name="name" placeholder="Seu nome" required />
+            <input
+              type="password"
+              name="pass"
+              placeholder="Sua senha"
+              required
+            />
+            <input
+              type="password"
+              name="pass"
+              placeholder="Confirme a sua senha"
+              required
+            />
+            <p>
+              Ao criar sua conta você concorda com os nossos Termos de serviço,
+              deseja logar através do seu
+              <a href=""><strong>Github</strong></a
+              >?
+            </p>
+            <button type="submit">CADASTRAR</button>
+          </form>
+        </div>
+      </main>
+      <div class="sidebar">
+        <img
+          class="main-image"
+          src="/assets/images/ti-vagas-01.svg"
+          alt="plataforma de vagas de ti"
+        />
+
+        <div class="logo-container">
+          <img src="/assets/images/VAGAS DE TI.svg" alt="vagas-ti" />
+        </div>
+      </div>
+    </div>
+
+    <a href="login.html"><h2 id="login-back">Voltar para Login</h2></a>
+  </body>
+</html>

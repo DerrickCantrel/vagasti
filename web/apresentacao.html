@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Estagio II</title>
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/partials/header.css" />
+    <link rel="stylesheet" href="styles/partials/forms.css" />
+    <link rel="stylesheet" href="styles/partials/page-apresetacao.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="/scripts/addField.js" defer></script>
+  </head>
+  <body id="page-apresentacao">
+    <div class="container">
+      <header class="page-header">
+        <div class="top-bar-container">
+          <a href="/"> <img src="/assets/icons/back.svg" alt="voltar" /></a>
+          <img src="/assets/images/VAGAS DE TI.svg" alt="Vagas" />
+        </div>
+
+        <div class="header-content">
+          <strong>Preencha com suas<br />informações Pessoais</strong>
+          <p>O primeiro passo, é preencher esse formulário de inscrição.</p>
+        </div>
+      </header>
+
+      <main>
+        <form action="" id="create-class">
+          <fieldset>
+            <legend>Apresentação</legend>
+
+            <div class="input-block">
+              <input
+                type="text"
+                name="name"
+                placeholder="Nome Completo"
+                required
+              />
+            </div>
+            <div class="input-block">
+              <input
+                type="profile"
+                id="ld-profile"
+                type="url"
+                placeholder="LinkedIn Url"
+                required
+              />
+            </div>
+            <div class="input-block">
+              <input
+                type="gprofile"
+                name="git-profile"
+                placeholder="Github Url"
+                required
+              />
+            </div>
+            <legend>Nível de Experiência</legend>
+            <div class="input-block">
+              <select name="subject" id="subject">
+                <option value="" disabled="" hidden="">
+                  Selecione uma opção
+                </option>
+                <option value="1">Júnior</option>
+                <option value="2">Pleno</option>
+                <option value="3">Senior</option>
+                <option value="4">Iniciante</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset id="habilidades-itemns">
+            <legend>
+              Habilidades
+              <button id="add-experience">+ Experiências</button>
+            </legend>
+            <p>
+              Informe suas habilidades (mínimo 2) e indique quantos anos de
+              experiência você possui em cada uma.
+            </p>
+
+            <div class="habilidades-grid">
+              <div class="input-block">
+                <input type="text" placeholder="Habilidade" />
+              </div>
+
+              <div class="input-block">
+                <select name="subject" id="subject" required>
+                  <option value="">Tempo</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5+</option>
+                </select>
+              </div>
+
+              <div class="input-block">
+                <input type="text" placeholder="Habilidade" />
+              </div>
+
+              <div class="input-block">
+                <select name="subject" id="subject" required>
+                  <option value="">Tempo</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5+</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Adicionar Projetos ou Experiência</legend>
+            <div class="textarea-block">
+              <textarea name="experience" id="experience" required></textarea>
+            </div>
+          </fieldset>
+        </form>
+
+        <footer>
+          <p>
+            <img src="/assets/icons/warning.svg" alt="Aviso Importante" />
+            Importante! <br />
+            Preencha todos os seus dados
+          </p>
+          <button type="submit" form="create-class">Salvar Cadastro</button>
+        </footer>
+      </main>
+    </div>
+
+    <script></script>
+  </body>
+</html>
