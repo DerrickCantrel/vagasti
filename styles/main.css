@@ -1,0 +1,49 @@
+:root {
+  --color-text-title: #ffffff;
+  --color-text-strong: #32264d;
+  --color-text-base: #6a6180;
+  --color-text-button: #ffffff;
+  --color-button-search: #100682;
+  --color-button-candito: #0a0470;
+  --color-secondary-dark: #0c3672;
+  --color-button-post: #f2c94c;
+  --color-primary-light: #d3b327;
+  --color-box-base: #2f80ed;
+  --color-box-main: #ffffff;
+  --color-line-in-white: #e6e6f0;
+  --color-small-info: #000000;
+  --color-box-footer: #fafafc;
+
+  --title-font: 'Archivo Black', sans-serif;
+  --body-font: 'Archivo', sans-serif;
+
+  font-size: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+p {
+  font: 1.6rem Poppins;
+}
+
+/* box model */
+#container {
+  width: 90vw;
+  max-width: 700px;
+  /* border: 1px solid red; */
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}

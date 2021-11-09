@@ -1,0 +1,39 @@
+#login {
+  margin-top: 50px;
+}
+
+#login input:first-child {
+  margin-top: 50px;
+}
+
+#login .line-hight {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #ffffff;
+}
+
+#login .line-hight a strong {
+  margin-left: 5px;
+}
+
+#login a strong {
+  transition: color 0.8s;
+}
+
+#login a strong:hover {
+  color: var(--color-text-strong);
+}
+
+p {
+  padding-left: 20px;
+}
+
+#login .register .git-button {
+  width: 60%;
+  margin-left: 40px;
+  background: var(--color-secondary-dark);
+  color: white;
+}
