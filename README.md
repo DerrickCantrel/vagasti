@@ -6,30 +6,6 @@ O Vagas de TI busca conectar de forma simples e intuitiva pessoas que buscam seu
  
 ## **:computer: TECNOLOGIAS**
 
-#### **Website** ([React][react] + [TypeScript][typescript])
-
-  - **[React Router Dom][react_router_dom]**
-  - **[React Icons][react_icons]**
-  - **[Axios][axios]**
-  - **[Leaflet][leaflet]**
-  - **[React Leaflet][react_leaflet]**
-  - **[React Dropzone][react_dropzone]**
-
-
-  \* Veja o arquivo <kbd>[package.json](./sources/website/package.json)</kbd>
-
-#### **Server** ([NodeJS][node] + [TypeScript][typescript])
-
-  - **[Express][express]**
-  - **[CORS][cors]**
-  - **[KnexJS][knex]**
-  - **[SQLite][sqlite3]**
-  - **[ts-node][tsnode]**
-  - **[dotENV][dotenv]**
-  - **[Multer][multer]**
-  - **[Celebrate][celebrate]**
-  - **[Joi][joi]**
-
 ## 🎨 Desing
 <p align="center">
  <img width="400px" height="250px" src="Action-Car-2/imgs/Imagem1.jpg">
@@ -39,22 +15,16 @@ O Vagas de TI busca conectar de forma simples e intuitiva pessoas que buscam seu
 </p>
 
 ## 🛠 Tecnologias
- * Lua
- * CoronaSDK (Solar 2d)
+ * Html5
+ * CSS3
+ * Express
+ * Mongo DB
 
-## 🕹 Como Executar
- ### Pré-Requisito
-  * Instalar o Corona SDK e abrir o arquivo "main.lua"
+## **:page_with_curl: LICENÇA**
 
-## :tv: Funcionanando
-Assista ao game funcionando, [clique aqui!](https://youtu.be/XMTqdgveVZY)
+Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
-<h4 align="center">
-  🚧 Em construção v2.0 ... 🚧
-</h4>
-
-### Features v2.0
-- [x] Versão 1.0
-- [ ] Misseis
-- [ ] Inimigos Radomicos 
-- [ ] Upgrade de Veiculo
+<h3 align="center">
+Feito com ❤️ por <a href="https://www.linkedin.com/in/derrick-cantrel-49541516b/">Derrick Cantrel e Christoffer</a>
+<br><br>
+</h3>
