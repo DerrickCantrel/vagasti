@@ -18,6 +18,6 @@ O Vagas de TI busca conectar de forma simples e intuitiva pessoas que buscam seu
 Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório. 
 
 <h3 align="center">
-Feito com ❤️ por <a href="https://www.linkedin.com/in/derrick-cantrel-49541516b/">Derrick Cantrel</a> e Christoffer
+Feito com ❤️ por <a href="https://www.linkedin.com/in/derrick-cantrel-49541516b/">Derrick Cantrel</a>
 <br><br>
 </h3>
