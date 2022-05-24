@@ -10,8 +10,7 @@ O Vagas de TI busca conectar de forma simples e intuitiva pessoas que buscam seu
 ## **:computer: TECNOLOGIAS**
  * Html5
  * CSS3
- * Express
- * Mongo DB
+ * Javascript
 
 ## **:page_with_curl: LICENÇA**
 
